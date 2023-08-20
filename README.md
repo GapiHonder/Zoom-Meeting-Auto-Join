@@ -1,6 +1,16 @@
 # Zoom-Meeting-and-Recording
 The python scripts lets you join and record a zoom meeting automatically (this is my first project, any feedback and help is appreciated)
 
+  # Edit: 
+   - I deleted from the script the option to record the meeting.
+   - I added a function that allow the host to controll your Microphone if it's asked.
+   - The programm auto close the zoom session after 2h 20m. You can delete this function by erasing line 47-49.
+   - The programm take a bit more time to run completly because i added some waiting time between some tasks.
+   - The programm can now detect "Join" button in White and Dark theme.
+   - It is the first time i do Python, there can be some mistakes.
+   - The script doesn't lunch automatically, you have to make it automatic by your own (Ex: Put the compilled script in the "startup" folder of Windows)
+   - Fork of "BigchillRK/Zoom-Meeting-and-Recording" Thank You for the original script !
+
 Read Me for Zoom Recording Template
 					
 
@@ -20,7 +30,7 @@ Sleep Settings
 
 Warning!!!
 
-Your computer needs to be AWAKE and SIGNED IN for this method to work. If your computer is normally on, then this won’t be a problem. If you want the pc to wake up at some time and sign in to run this program, you need to enable these settings which I will outline. If your pc can start up from shutdown (e.g. RTC alarm) then you can also do that however I was not able to get this to work. The best way was to wake the pc from sleep and run the python script
+Your computer needs to be AWAKE and SIGNED IN for this method to work. If your computer is normally on, then this won’t be a problem.
 
 Sign In Settings
 
@@ -54,11 +64,6 @@ Audio
 
   o	Optional and case specific
 
-Waking the computer
-
-This aspect is done in windows task scheduler. Follow this YouTube video for how to set up
-
-https://www.youtube.com/watch?v=n2Cr_YRQk7o&
 
 Essential Outline
 
