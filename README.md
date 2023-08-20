@@ -6,7 +6,7 @@ The python scripts lets you join and record a zoom meeting automatically (this i
    - I added a function that allow the host to controll your Microphone if it's asked.
    - The programm auto close the zoom session after 2h 20m. You can delete this function by erasing line 47-49.
    - The programm take a bit more time to run completly because i added some waiting time between some tasks.
-   - The programm can now detect "Join" button in White and Dark theme.
+   - The programm can now detect "Join" button in Light and Dark theme.
    - It is the first time i do Python, there can be some mistakes.
    - The script doesn't lunch automatically, you have to make it automatic by your own (Ex: Put the compilled script in the "startup" folder of Windows)
    - Fork of "BigchillRK/Zoom-Meeting-and-Recording" Thank You for the original script !
